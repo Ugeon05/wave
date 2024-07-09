@@ -40,7 +40,7 @@ export class Wave {
         ctx.closePath();
       }
   
-      if (i != this.numberOfPoints - 1) {
+      if (i != 0 && i != this.numberOfPoints - 1) {
         this.points[i].update();
       }
     }

@@ -2,7 +2,7 @@ export class Point {
     constructor(index, x, y) {
       this.x = x;
       this.y = y;
-      this.fieldY = y;
+      this.fieldY = y; /* 초기값 200 */
       this.speed = 0.03;
       this.cur = index; 
       this.max = Math.random() * 100 + 150;
