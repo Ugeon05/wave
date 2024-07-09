@@ -35,7 +35,13 @@ canvas {
 }
 
 .first-title{
-    padding-top: 17px;
+    padding-top: 8px;
     font-size: 40px;
     color: #fffeef;
+}
+
+.mini-title{
+    color: #fffeef;
+    font-size: 20px;
+    padding-top: 4px;
 }
